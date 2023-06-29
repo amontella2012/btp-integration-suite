@@ -15,8 +15,8 @@ Create an instance of API portal, API Management service and fetch the service k
 > ### Sample Code:  
 > ```
 > {
-> 	"url": "https://<apiportal application name>.cfapps.sap.hana.ondemand.com",
-> 	"tokenUrl": "https://<Space name>.authentication.sap.hana.ondemand.com/oauth/token",
+> 	"url": "https://<apiportal application name>.cfapps.sap.hana.ondemand.com" (for example https://eu10apiportal.cfapps.eu10.hana.ondemand.com),
+> 	"tokenUrl": "https://<Subdomain name>.authentication.sap.hana.ondemand.com/oauth/token",
 > 	"clientId": "sb-apiaccessxxxxxxxx!xxxx|api-portal-xsuaa!bxxxx",
 > 	"clientSecret": "xxxxxxxxxxxxxxxxxxxxxxx="
 > }
